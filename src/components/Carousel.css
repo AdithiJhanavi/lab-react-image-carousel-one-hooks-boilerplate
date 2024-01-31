@@ -1,1 +1,32 @@
 /* write down the css for Carousel in this file */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.img {
+    position: absolute;
+    height: 300px;
+}
+
+h2{
+    font-size: 60px;
+    background-color: #ffffffdb;
+    position: relative;
+    top: 300px;
+    width: 32%;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 30px;
+        background-color: #ffffffd6;
+        position: relative;
+        top: 500px;
+        width: 90%;
+    margin-left: 40px;
+    border-radius: 10px;
+}
